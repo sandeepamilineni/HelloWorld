@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Helloworld {
 
-  static char[] cArr = "Hello world   ".toCharArray();
+  static char[] cArr = "*Hello world!   ".toCharArray();
   static int index = -1;
  
   public static void main(String[] args) throws InterruptedException  {
@@ -25,11 +25,8 @@ public class Helloworld {
 
   public static char nextChar() {
 	index++;
-	if (index == 12) {
-		Random r = new Random();
-		colorNumber = r.nextInt(arr.length);
-	}
-	if (index > 13) {
+	
+	if (index > cArr.length-1) {
 		index = 0;
 
 	}
