@@ -1,6 +1,6 @@
 # HelloWorld
 <br><b>Run the application.</b>
-  <br>&emsp;Doubli-click the Helloworld.jar located in jar folder
+  <br>&emsp;Download and double-click the Helloworld.jar at <a href="https://github.com/sandeepamilineni/HelloWorld/blob/master/jar/">location</a>.
   <br>
 <br><b>Hello world sample project:</b>
   <br>&emsp;The application displays Helloworld in multiple colors on console in the form of Sin(math) wave.  
